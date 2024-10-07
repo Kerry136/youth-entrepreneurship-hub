@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  header {
+    background-color: #56e4fd; /* Pitch pink */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  #hero {
+    background-color: #ffb3c1; /* Light pitch pink */
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #hero h2 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  #hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  #hero button {
+    background-color: #42e9e3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #hero button:hover {
+    background-color: #58f2f5;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  #mentors, #funding {
+    background-color: #ffffff;
+    border-left: 5px solid #f88ce6;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2, h3 {
+    color: #f353a3;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fa409d;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #ff69a5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #e6006b;
+  }
+  
+  footer {
+    background-color: #57f2ede0;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  

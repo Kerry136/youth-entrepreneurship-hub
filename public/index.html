@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Youth Entrepreneurship Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Youth Entrepreneurship Hub</h1>
+    <nav>
+      <a href="#mentors">Mentors</a>
+      <a href="#funding">Funding Opportunities</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Empowering Young Entrepreneurs</h2>
+    <p>Connect with mentors, find funding, and grow your business.</p>
+    <button onclick="scrollToSection('mentors')">Get Started</button>
+  </section>
+
+  <section id="mentors">
+    <h2>Meet Our Mentors</h2>
+    <div id="mentor-list"></div>
+    <h3>Add a Mentor</h3>
+    <form id="mentor-form">
+      <input type="text" id="mentor-name" placeholder="Name" required><br>
+      <input type="text" id="mentor-expertise" placeholder="Expertise" required><br>
+      <textarea id="mentor-bio" placeholder="Bio" required></textarea><br>
+      <button type="submit">Add Mentor</button>
+    </form>
+  </section>
+
+  <section id="funding">
+    <h2>Funding Opportunities</h2>
+    <div id="funding-list"></div>
+    <h3>Add Funding Opportunity</h3>
+    <form id="funding-form">
+      <input type="text" id="funding-title" placeholder="Title" required><br>
+      <input type="number" id="funding-amount" placeholder="Amount" required><br>
+      <textarea id="funding-description" placeholder="Description" required></textarea><br>
+      <button type="submit">Add Funding</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Youth Entrepreneurship Hub - All Rights Reserved</p>
+  </footer>
+
+  <script src="/scripts.js"></script>
+</body>
+</html>
